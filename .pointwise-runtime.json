@@ -1,0 +1,18 @@
+{
+  "description": "Runtime configuration for the PCA sketch demonstration. Optional: if it is absent, demo_pca.py falls back to these defaults.",
+  "p": 24,
+  "l": 3,
+  "seed": 20261114,
+  "stations": [
+    {"name": "north-1", "n": 120, "scale": 1.0, "offset_scale": 120.0},
+    {"name": "north-2", "n": 90, "scale": 4.0, "offset_scale": 0.0},
+    {"name": "south-1", "n": 60, "scale": 0.25, "offset_scale": -300.0},
+    {"name": "south-2", "n": 200, "scale": 2.0, "offset_scale": 75.0},
+    {"name": "east-1", "n": 45, "scale": 10.0, "offset_scale": 0.0}
+  ],
+  "assertions": {
+    "mean_tolerance": 1e-7,
+    "spectral_tolerance": 1e-6,
+    "max_demo_p": 32
+  }
+}
